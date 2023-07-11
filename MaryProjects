@@ -1,0 +1,33 @@
+#input
+song="Mary had a little lamb, little lamb, little lamb. Mary had a little lamb whose fleece was white as snow. And everywhere that Mary went, Mary went, Mary went. And everywhere that Mary went the lamb was sure to go."
+
+def freq(haystack,needle):
+#split
+    splithaystack = haystack.split()
+#target
+    needle
+#initialize count
+    count=0
+    for element in splithaystack:
+        if (element==needle):
+            count=count+1
+    print(count)
+freq(song,"white")
+
+
+#input
+song="Mary had a little lamb, little lamb, little lamb. Mary had a little lamb whose fleece was white as snow. And everywhere that Mary went, Mary went, Mary went. And everywhere that Mary went the lamb was sure to go."
+
+def freq(haystack,needle):
+#split
+    splithaystack = haystack.split()
+#target
+    needle
+#initialize count
+    i=0
+    count=0
+    while splithaystack[i]!=needle:
+            count=count+1
+            i=i+1
+    print(count)
+freq(song,"white")
